@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% rendercontent 'header' %}
+  {% with breadcrumbs %}
+    <a href="/#projects">Projects</a>
+    /
+    {{ page.title }}
+  {% endwith %}
+{% endrendercontent %}
+
+<article class="project">
+  <h1 class="project__title">{{ page.title }}</h1>
+
+  {{ content }}
+</article>

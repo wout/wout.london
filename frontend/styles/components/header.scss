@@ -1,0 +1,11 @@
+.header {
+  background-color: var(--dark-teal);
+  color: white;
+
+  &__lining {
+    max-width: 120rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  color: var(--dark-grey);
+  color: #2a2a2a;
+  line-height: 1.4;
+  min-width: 32rem;
+}
+
+a {
+  font-weight: bold;
+  transition: color .15s;
+
+  &:hover {
+    color: var(--warm-red);
+    color: #DB4E3D;
+  }
+}

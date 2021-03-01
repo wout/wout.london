@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-size: 2em;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+ul { list-style-type: none; }
+
+p { margin-bottom: 2rem; }
+p:last-child { margin-bottom: 0; }
+
+img,
+source {
+  max-width: 100%;
+}
