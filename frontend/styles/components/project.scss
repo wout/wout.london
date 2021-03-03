@@ -1,14 +1,8 @@
 .project {
-  padding: 7rem 0;
+  padding: 7rem 2rem;
 
-  p {
-    max-width: 60rem;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
+  > * {
+    --flow-space: 10rem;
   }
 
   &__title {
@@ -16,5 +10,41 @@
     font-size: 3rem;
     margin-bottom: 3rem;
     font-weight: bold;
+  }
+
+  &__description,
+  &__item {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+  &__description {
+    margin-bottom: 5rem;
+  }
+
+  &__item {
+    text-align: center;
+
+    > * {
+      --flow-space: 2rem;
+    }
+
+    &-title {
+      font-weight: bold;
+    }
+
+    &-video {
+      position: relative;
+      height: 0;
+      padding-bottom: 100%;
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 }

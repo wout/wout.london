@@ -4,18 +4,18 @@ layout: default
 
 <header class="section">
   <div class="section__lining">
-    <picture class="section__image mt--3">
+    <picture class="section__image | mt--3">
       <source srcset="images/wout-2021.webp" type="image/webp">
       <source srcset="images/wout-2021.jpg" type="image/jpeg">
       <img src="images/wout-2021.jpg">
     </picture>
-    <h1 class="section__heading section__heading--primary mt--3">
+    <h1 class="section__heading section__heading--primary | mt--3">
       {{ site.metadata.title }}
     </h1>
     <h2 class="section__heading">
       {{ site.metadata.tagline }}
     </h2>
-    <nav class="navigation mt--5">
+    <nav class="navigation | mt--5">
       <ul>
         <li class="navigation__item">
           <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#105;&#064;&#119;&#111;&#117;&#116;&#046;&#108;&#111;&#110;&#100;&#111;&#110;">
@@ -53,7 +53,7 @@ layout: default
 </header>
 <section class="section section--coding">
   <div class="section__lining">
-    <h2 class="section__heading section__heading--primary mb--3">
+    <h2 class="section__heading section__heading--primary | mb--3">
       As a developer...
     </h2>
     <p>
@@ -63,13 +63,13 @@ layout: default
       I contribute to Open Source as much as I can, and my most noteworthy project is <a href="https://svgjs.com/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
     </p>
     <p>
-      Three years ago, I switched to Linux after using macOS for 30 years. So, yeah, you can call me a total nerd now.
+      Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for artists and designers to build atypical websites.
     </p>
   </div>
 </section>
 <section class="section">
   <div class="section__lining">
-    <h2 class="section__heading section__heading--primary mb--3">
+    <h2 class="section__heading section__heading--primary | mb--3">
       As a designer...
     </h2>
     <p>
@@ -78,12 +78,12 @@ layout: default
   </div>
 </section>
 <section class="section">
-  <div class="portfolio" id="projects">
+  <div class="image-grid" id="projects">
     {% for project in site.projects %}
-      <a href="{{ project.url }}" class="portfolio__project">
+      <a href="{{ project.url }}" class="image-grid__item">
         <img src="{{ project | project_image_path: 'thumb.jpg' }}"
              alt="{{ project.title }}">
-        <h3 class="portfolio__project-title">
+        <h3 class="image-grid__item-title">
           {{ project.title }}
         </h3>
       </a>
