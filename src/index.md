@@ -63,30 +63,17 @@ layout: default
       I contribute to Open Source as much as I can, and my most noteworthy project is <a href="https://svgjs.com/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
     </p>
     <p>
-      Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for artists and designers to build atypical websites.
+      Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for artists and designers.
     </p>
   </div>
 </section>
 <section class="section">
   <div class="section__lining">
     <h2 class="section__heading section__heading--primary | mb--3">
-      As a designer...
+      As a digital artist...
     </h2>
     <p>
-      Occasinally I take on design projects and I’ve been collaborating with my partner <a href="https://mick.london/" target="_blank">Mick</a> on many of them. Some of the most recent ones are listed below.
+      Together with my partner <a href="https://mick.london/" target="_blank">Mick</a>, a photographer and filmmaker, we are <a href="https://www.instagram.com/wonderingboys/" target="_blank">Wondering Boys</a>. This year we're working on short films and animations. Some 3D printed, others a fusion of real-world and 3D imagery.  
     </p>
-  </div>
-</section>
-<section class="section">
-  <div class="image-grid" id="projects">
-    {% for project in site.projects %}
-      <a href="{{ project.url }}" class="image-grid__item">
-        <img src="{{ project | project_image_path: 'thumb.jpg' }}"
-             alt="{{ project.title }}">
-        <h3 class="image-grid__item-title">
-          {{ project.title }}
-        </h3>
-      </a>
-    {% endfor %}
   </div>
 </section>
