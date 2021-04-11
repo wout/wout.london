@@ -57,7 +57,7 @@ layout: default
       As a developer...
     </h2>
     <p>
-      For the past 15 years I’ve been working on Ruby on Rails projects in all shapes and sizes. While Ruby is my language of choice, I can find my way around Python, Crystal, PHP and JavaScript just as well.
+      For the past 15 years I’ve been working mostly on Ruby on Rails projects and recently I became a blockchain developer. While Ruby is my language of choice, I can find my way around Python, Crystal, PHP and JavaScript just as well.
     </p>
     <p>
       I contribute to Open Source as much as I can, and my most noteworthy project is <a href="https://svgjs.com/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
@@ -73,7 +73,7 @@ layout: default
       As a digital artist...
     </h2>
     <p>
-      Together with my partner <a href="https://mick.london/" target="_blank">Mick</a>, a photographer and filmmaker, we are <a href="https://www.instagram.com/wonderingboys/" target="_blank">Wondering Boys</a>. This year we're working on short films and animations. Some 3D printed, others a fusion of real-world and 3D imagery.  
+      Together with my partner Mick, a photographer and filmmaker, we are <a href="https://www.instagram.com/wonderingboys/" target="_blank">Wondering Boys</a>. This year we're working on short films and animations. Some 3D printed, others a fusion of real-world and 3D imagery.  
     </p>
   </div>
 </section>
