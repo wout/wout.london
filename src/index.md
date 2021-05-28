@@ -57,13 +57,13 @@ layout: default
       As a developer...
     </h2>
     <p>
-      For the past 15 years I’ve been working mostly on Ruby on Rails projects and recently I became a blockchain developer. While Ruby is my language of choice, I can find my way around Python, Crystal, PHP and JavaScript just as well.
+      For the past 15 years I’ve been working mostly on Ruby on Rails projects and more recently I became a blockchain developer. While Ruby is my language of choice, I can find my way around Python, Crystal and Haskell just as well.
     </p>
     <p>
-      I contribute to Open Source as much as I can, and my most noteworthy project is <a href="https://svgdotjs.github.io/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
+      I contribute to Open Source as much as I can and I'm the original author of <a href="https://svgdotjs.github.io/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
     </p>
     <p>
-      Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for digital artists.
+      Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for Digital Artists and NFT Collectors.
     </p>
   </div>
 </section>
@@ -73,7 +73,7 @@ layout: default
       As a digital artist...
     </h2>
     <p>
-      Together with my partner Mick, we are <a href="https://www.instagram.com/wonderingboys/" target="_blank">Wondering Boys</a>. This year we're working on short films and animations. Some 3D printed, others a fusion of real-world and 3D imagery.
+      Together with my partner Mick, we are <a href="https://www.instagram.com/wonderingboys/" target="_blank">Wondering Boys</a>. In 2021 we're working on various NFT collections and a digital fashion collection, which will be presented during London Fashion Week in September 2021. 
     </p>
   </div>
 </section>
