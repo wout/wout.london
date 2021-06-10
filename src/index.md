@@ -60,7 +60,7 @@ layout: default
       For the past 15 years I’ve been working mostly on Ruby on Rails projects and more recently I became a blockchain developer. While Ruby is my language of choice, I can find my way around many other languages as well.
     </p>
     <p>
-      I contribute to Open Source as much as I can and I'm the original author of <a href="https://svgdotjs.github.io/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
+      I contribute to Open Source as much as I can and I'm the original author of <a href="https://svgjs.dev/" target="_blank">SVG.js</a>, a library for manipulating and animating SVG.
     </p>
     <p>
       Lately I'm working on <a href="https://tilitribe.com" target="_blank">TiliTribe</a>, a website builder for Digital Artists and NFT Collectors.
