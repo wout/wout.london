@@ -5,7 +5,7 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 title: Wout Fierens
-tagline: Full Stack Developer / Digital Artist
+tagline: Full-Stack Developer / Digital Artist
 email: hi@wout.london
 description: >-
   Full-stack developer and Digital artist.
